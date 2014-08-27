@@ -1,0 +1,7 @@
+<div class="hero-unit">
+    <h1><?php 
+        echo sprintf($this->translate('Welcome to %s<br>'), $this->applicationName);
+        echo sprintf($this->translate('version: %s<br>'), $this->version);?>
+        <h4><?php echo sprintf($this->translate('poruka: %s'), $this->appMsg);?><br> Ovo je poruka ispisana u index.phtml</h4></h1>
+        <?php echo sprintf($this->translate('Welcome poruka: %s'), $this->zdravo);?>
+</div>
